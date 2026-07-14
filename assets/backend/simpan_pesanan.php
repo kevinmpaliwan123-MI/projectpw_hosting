@@ -96,7 +96,7 @@ if ($posisi_tujuan <= $posisi_awal) {
                                     PESANAN BERHASIL DISIMPAN
                                 </h3>
 
-                                <a href="../../index.html">Back-Home</a>
+                                <a href="../../index.html#shop">Back-Home</a>
 
                             </div>
                         </div>

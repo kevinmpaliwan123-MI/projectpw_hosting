@@ -3,7 +3,7 @@
 $host = "127.0.0.1";
 $db   = "db_joki";
 $user = "root";
-$pass = "151413";
+$pass = "hagi";
 
 $conn = mysqli_connect($host, $user, $pass, $db);
 
