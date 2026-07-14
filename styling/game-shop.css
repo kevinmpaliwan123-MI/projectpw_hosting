@@ -1,0 +1,65 @@
+/* GAMES  */
+.game-card {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #111;
+    transition: transform 0.3s ease;
+}
+
+.game-card:hover {
+    transform: translateY(-8px);
+}
+
+.game-card .game-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.game-overlay {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(168, 85, 247, 0.95) 0%, rgba(168, 85, 247, 0.65) 100%);
+}
+
+.game-overlay h5 {
+    color: #0a0a0a;
+    font-weight: 700;
+    font-size: 1.05rem;
+    margin: 0;
+}
+
+.game-overlay i {
+    color: rgba(10, 10, 10, 0.6);
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .games-title {
+        font-size: 2rem;
+    }
+
+    .game-card {
+        height: 160px;
+    }
+
+    .game-overlay {
+        padding: 12px 15px;
+    }
+
+    .game-overlay h5 {
+        font-size: 0.9rem;
+    }
+}

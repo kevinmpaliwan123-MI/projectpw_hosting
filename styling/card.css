@@ -1,0 +1,198 @@
+.feature-card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    height: 130px;
+    margin-top: 80px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.feature-card::after {
+    content: "";
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    width: calc(100% - 30px);
+    height: 3px;
+    background: #4da3ff;
+}
+
+@media(max-width:768px) {
+    .title-store {
+        font-size: 2.5rem;
+    }
+
+    .feature-card {
+        height: 100px;
+        margin-bottom: 15px;
+        font-size: 1.2rem;
+    }
+}
+
+.feature-card3 {
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    margin-bottom: 28px;
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+
+}
+
+.feature-content {
+    position: relative;
+    display: inline-block;
+
+}
+
+.feature-content h2 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+
+.feature-content::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 3px;
+    background: #44a9ff;
+
+}
+
+/* TITLE TESTIMONI  */
+.testimonial-title {
+    width: 350px;
+    max-width: 100%;
+    height: auto;
+}
+
+.testimonial-wrapper {
+    position: relative;
+    bottom: 40PX;
+    background: rgba(0, 0, 0, 0.411);
+    backdrop-filter: blur(5px);
+    border-radius: 25px;
+    padding: 45px;
+
+}
+
+/* Container utama carousel */
+.cards {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 320px;
+    max-width: 480px;
+    left: 0;
+}
+
+.card {
+    position: absolute !important;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    border: none !important;
+    background: transparent !important;
+}
+
+.hero-content{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap: 30px;
+    min-height:100vh;
+
+    
+}
+
+.hero-left,
+.hero-right{
+    flex:0 1 500px;
+}
+
+.hero-left {
+    position: relative;
+    left: 0;
+
+}
+
+.hero-right {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: flex-end;
+
+}
+
+.img {
+    width: 100%;
+    height: 150%;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+
+/* bagian tombol */
+.btn-joki3 {
+
+    width: 180px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, .18);
+    border-radius: 14px;
+    color: white !important;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: .3s ease;
+
+}
+
+.btn-joki3:hover {
+    color: white;
+    border-color: #44a9ff;
+    box-shadow:
+        0 0 15px rgba(68, 169, 255, .45);
+
+}
+
+.btn-joki3::after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 8px;
+    height: 2px;
+    background: #44a9ff;
+
+}

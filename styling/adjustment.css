@@ -1,0 +1,30 @@
+/* Joki Central text config */
+.tc-center {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding: 300px 10px 60px 100px;
+}
+
+@media (min-width: 768px) {
+    .geser-kiri {
+        position: relative;
+        width: 100%px !important;
+        max-width: 530px !important;
+
+        top: 1px;
+        left: 0;
+    }
+
+    .geser-kanan {
+        position: relative;
+        left: 60px;
+    }
+}
+
+.geser-tengah {
+    position: relative;
+    left: 450px;
+    top: 100px;
+}

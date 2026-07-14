@@ -1,0 +1,109 @@
+/* CAROUSEL CONFIG  */
+
+input[type=radio] {
+    display: none;
+}
+
+/* Container utama carousel */
+.cards {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 320px;
+    max-width: 480px;
+    margin: auto;
+    top: 0px;
+    left: 100px;
+}
+
+.card {
+    position: absolute !important;
+    width: 240px;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    border: none !important;
+    background: transparent !important;
+    width: 400px;
+}
+
+.img {
+    width: 100%;
+    height: 150%;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+
+
+/* Kartu Utama ) */
+#item-1:checked~.cards #as-1,
+#item-2:checked~.cards #as-2,
+#item-3:checked~.cards #as-3,
+#item-4:checked~.cards #as-4 {
+    transform: translateX(0) scale(1);
+    z-index: 3;
+    opacity: 0;
+}
+
+/* Kartu Sisi Kanan */
+#item-1:checked~.cards #as-2,
+#item-2:checked~.cards #as-3,
+#item-3:checked~.cards #as-4,
+#item-4:checked~.cards #as-1 {
+    transform: translateY(20%) translateX(45%) scale(0.70);
+    z-index: 2;
+    opacity: 0.2;
+
+}
+
+/* Kartu Sisi Kiri */
+#item-1:checked~.cards #as-4,
+#item-2:checked~.cards #as-1,
+#item-3:checked~.cards #as-2,
+#item-4:checked~.cards #as-3 {
+    transform: translateY(20%) translateX(-45%) scale(0.70);
+    z-index: 2;
+    opacity: 0.2;
+
+}
+
+.scale-up-center {
+    transition: transform 0.3s ease-in-out !important;
+}
+
+.scale-up-center:hover {
+    transform: scale(1.1) !important;
+
+}
+
+.small-size {
+    position: relative;
+    width: 60% !important;
+    top: 25px;
+    left: 190px;
+
+}
+
+.pay-logos {
+    position: relative;
+    width: 45%;
+    transform: translateY(80px) !important;
+    /* margin-top: 100px;  */
+    left: 50px;
+}
+
+@media (max-width: 767px) {
+    .cards {
+        display: none ;
+    }
+
+   
+}
+
+input[name="nav-trigger"] {
+    display: none;
+}

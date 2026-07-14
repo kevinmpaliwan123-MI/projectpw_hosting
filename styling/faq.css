@@ -1,0 +1,36 @@
+.accordion-faq .accordion-item {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(234, 0, 255, 0.25);
+    border-radius: 10px !important;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.accordion-faq .accordion-button {
+    background-color: transparent;
+    color: rgb(249, 205, 255);
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    box-shadow: none;
+}
+
+.accordion-faq .accordion-button:not(.collapsed) {
+    background-color: rgba(234, 0, 255, 0.212);
+    color: rgb(255, 255, 255);
+    box-shadow: none;
+}
+
+.accordion-faq .accordion-button:focus {
+    box-shadow: none;
+    border-color: transparent;
+}
+
+.accordion-faq .accordion-button::after {
+    filter: invert(1) grayscale(1) brightness(1.5);
+}
+
+.accordion-faq .accordion-body {
+    background-color: rgba(0, 0, 0, 0.25);
+    color: rgba(252, 240, 255, 0.85);
+    line-height: 1.7;
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
+/* Instrument Serif */
+.instrument-serifs {
+    font-family: "Instrument Serif", serif;
+    font-style: normal;
+    font-size: 1.3rem;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.bgr-image {
+    background-image: url(bg-image/shop.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.card-custom {
+    background: rgba(20, 16, 33, 0.7) !important; 
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border-radius: 25px;
+    border: 1px solid rgba(157, 78, 221, 0.3) !important;
+    box-shadow: 
+        0 0 20px rgba(157, 78, 221, 0.15),
+        inset 0 0 15px rgba(157, 78, 221, 0.1) !important;
+    transition: all 0.4s ease-in-out;
+}
+
+.logo-name {
+    position: relative;
+    width: 125%;
+}
+
+
+.card-custom:hover {
+    border-color: rgba(157, 78, 221, 0.8) !important;
+    box-shadow:
+        0 0 15px rgba(157, 78, 221, 0.5),
+        0 0 35px rgba(157, 78, 221, 0.3),
+        0 0 70px rgba(0, 240, 255, 0.15), 
+        inset 0 0 20px rgba(157, 78, 221, 0.3) !important;
+
+    transform: translateY(-5px);
+}
+
+.card-custom .form-label {
+    color:  #d4d0e6 !important;
+
+}
+
+.card-custom .form-control,
+.card-custom .form-select {
+   background-color: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(157, 78, 221, 0.25) !important;
+    color: #ffffff !important;
+    border-radius: 10px !important;
+    transition: all 0.3s ease;
+
+}
+
+.card-custom .form-select option {
+    background-color: #141021;
+    color: #ffffff;
+}
+
+.btn-order .img-btn {
+    max-height: 70px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    border: none !important;
+    border-radius: 1px !important;
+    box-shadow: 0 0px 15px rgba(157, 78, 221, 0.4) !important;
+    transition: all 0.3s ease !important;
+    
+}
+
+.payment-text-color {
+    color: rgb(195, 43, 255);
+}

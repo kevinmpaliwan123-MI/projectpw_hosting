@@ -1,0 +1,17 @@
+.scale-size-last-page {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.scale-size-last-page img {
+    max-width: 50%; 
+    height: auto;
+}
+
+.scale-game-section {
+    position: relative;
+    margin-top: 20px;
+}

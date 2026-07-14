@@ -1,0 +1,110 @@
+.advantage-card {
+    position: relative;
+    bottom: 85px;
+}
+
+
+@keyframes munculDariBawah {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+
+}
+
+.anim-downto {
+    opacity: 0;
+    animation-name: munculDariBawah;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+
+
+    animation-fill-mode: forwards;
+}
+
+.anim-delay {
+    animation-delay: 1.2s;
+
+}
+
+.anim-delay2 {
+    animation-delay: 1s;
+
+}
+
+/*ANIM DOWN TO UP */
+
+
+/* sec2 */
+
+
+
+@keyframes munculSekali {
+    from {
+        opacity: 0;
+        transform: translateY(60px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#benefits:target .show-card,
+#benefits:target .image-advantage,
+#why:target .show-card3,
+#why:target .image-advantage3,
+#testi:target .show-card4,
+#testi:target .image-advantage4,
+#shop:target .show-card7,
+#shop:target .image-advantage7 {
+    animation: munculSekali 1s ease-out;
+    animation-fill-mode: forwards;
+
+}
+
+#benefits .show-card {
+    transition-delay: 0.5s;
+}
+
+#benefits .image-advantage {
+    transition-delay: 0.9s;
+}
+
+
+
+/*sec3*/
+
+
+#why .show-card3 {
+    transition-delay: 0.5s;
+}
+
+#why .image-advantage3 {
+    transition-delay: 0.9s;
+}
+
+#testi .show-card4 {
+    transition-delay: 0.5s;
+}
+
+#testi .image-advantage4 {
+    transition-delay: 0.9s;
+}
+
+/*sec7*/
+
+#shop .show-card7 {
+    transition-delay: 0.5s;
+}
+
+#shop .image-advantage7 {
+    transition-delay: 0.9s;
+}

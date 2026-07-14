@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joki - Central</title>
+   
+    <link rel="stylesheet" href="styling/adjustment.css">
+    <link rel="stylesheet" href="styling/animation.css">
+    <link rel="stylesheet" href="styling/bg-section.css">
+    <link rel="stylesheet" href="styling/card.css">
+    <link rel="stylesheet" href="styling/carousel.css">
+    <link rel="stylesheet" href="styling/comment.css">
+    <link rel="stylesheet" href="styling/faq.css">
+    <link rel="stylesheet" href="styling/font.css">
+    <link rel="stylesheet" href="styling/game-shop.css">
+    <link rel="stylesheet" href="styling/navbar.css">
+    <link rel="stylesheet" href="styling/scale.css">
+    <link rel="stylesheet" href="styling/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <input type="radio" name="nav-trigger" id="trigger-about" checked title="Show About section">
+    <input type="radio" name="nav-trigger" id="trigger-benefits" title="Show Benefits section">
+    <input type="radio" name="nav-trigger" id="trigger-why" title="Show Why section">
+
+    <!-- NAVBAR -->
+    <aside class="sidebar">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-custom pt-4 pb-4 ">
+                <div class="container-xxl">
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars text-white "></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse anim-downto anim-delay2" id="navbarSupportedContent">
+                        <ul class="navbar-nav navbar-custom mb-2 mb-lg-0">
+                            <li class="nav-item ps-2">
+                                <a class="nav-link d-flex flex-column text-center text-white  " aria-current="page"
+                                    href="#about"><i class="fas fa-info fa-lg my-3"></i><span
+                                        class="small">About</span></a>
+                            </li>
+                            <li class="nav-item ps-2">
+                                <a class="nav-link d-flex flex-column text-center text-white " aria-current="page"
+                                    href="#benefits"><i class="fas fa-briefcase fa-lg my-3"></i><span
+                                        class="small">Benefits</span></a>
+                            </li>
+                            <li class="nav-item ps-2">
+                                <a class="nav-link d-flex flex-column text-center text-white " aria-current="page"
+                                    href="#why"><i class="fas fa-bell fa-lg my-3"></i><span
+                                        class="small">Why?</span></a>
+                            </li>
+                            <li class="nav-item ps-2">
+                                <a class="nav-link d-flex flex-column text-center text-white " aria-current="page"
+                                    href="#testi"><i class="fas fa-shopping-cart fa-lg my-3"></i><span
+                                        class="small">Testimoni</span></a>
+                            </li>
+                            <li class="nav-item ps-2">
+                                <a class="nav-link d-flex flex-column text-center text-white  " aria-current="page"
+                                    href="#crew"><i class="fas fa-user-tie fa-lg my-3"></i><span
+                                        class="small">Crew</span></a>
+                            </li>
+                            <li class="nav-item ps-2">
+                                <a class="nav-link d-flex flex-column text-center text-white " aria-current="page"
+                                    href="#shop"><i class="fas fa-gamepad fa-lg my-3"></i><span
+                                        class="small">Games</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </aside>
+
+
+        <!-- FIRST PAGE -->
+        <section id="about" class="bg-section section-1">
+            <div class="container">
+
+                <div class="hero-content anim-downto anim-delay">
+                    <div class="hero-left anim-downto anim-delay">
+                        <img src="assets/gambar/joki-central.png" class="img-fluid geser-kiri scale-up-center"
+                            alt="joki central">
+
+                    </div>
+
+
+
+
+                    <div class="hero-right anim-downto anim-delay">
+                        <input type="radio" name="slider" id="item-1" checked>
+                        <input type="radio" name="slider" id="item-2">
+                        <input type="radio" name="slider" id="item-3">
+                        <input type="radio" name="slider" id="item-4">
+                        <div class="cards">
+                            <label class="card" for="item-1" id="as-1">
+                                <img src="assets/gambar/carousel img/mlbb-l.png" class="img-fluid align-items-center"
+                                    alt="promote">
+                            </label>
+                            <label class="card" for="item-2" id="as-2">
+                                <img src="assets/gambar/carousel img/hok-l.png" class="img-fluid align-items-center"
+                                    alt="promote">
+                            </label>
+                            <label class="card" for="item-3" id="as-3">
+                                <img src="assets/gambar/carousel img/ff-l.png" class="img-fluid align-items-center"
+                                    alt="promote">
+                            </label>
+                            <label class="card" for="item-4" id="as-4">
+                                <img src="assets/gambar/carousel img/pubg-l.png" class="img-fluid align-items-center"
+                                    alt="promote">
+                            </label>
+                        </div>
+
+                        
+                        <div class="pay-logos align-items-center anim-downto anim-delay">
+                            <img src="assets/gambar/pay-logo.png" class="img-fluid" alt="pay-logo">
+                        </div>
+
+                    </div>
+
+                </div>
+                
+            </div>
+            
+
+        </section>
+
+    <!--SECOND PAGE-->
+    <section id="benefits" class="bg-section section-2">
+            <div class="container justify-content-center">
+                <div class="row mb-5 align-items-center justify-content-center  ">
+                    <div class="col-lg-6 image-advantage">
+                        <img src="assets/gambar/jc-advantage.png" class="img-fluid scale-up-center " alt="joki central">
+                    </div>
+                </div>
+
+                <div class="row g-4 ">
+                    <div class="col-md-3 scale-up-center">
+                        <div class="feature-card text-uppercase show-card scale-up-center">
+                            Cepat &amp;<br>Terpercaya
+                        </div>
+                    </div>
+                    <div class="col-md-3 scale-up-center">
+                        <div class="feature-card h-100 text-uppercase show-card scale-up-center">
+                            Murah &amp; Aman
+                        </div>
+                    </div>
+                    <div class="col-md-3 scale-up-center">
+                        <div class="feature-card h-100 text-uppercase show-card scale-up-center">
+                            Open 24<br>Hour
+                        </div>
+                    </div>
+                    <div class="col-md-3 scale-up-center">
+                        <div class="feature-card text-uppercase show-card scale-up-center ">
+                            3x Lose +1<br>Star
+                        </div>
+                    </div>
+                </div>
+
+                <div class="small-size">
+                    <img src="assets/gambar/rank-advantage.png " class="small-size scale-up-center" alt="joki central">
+                </div>
+            </div>
+    </section>
+
+    <!-- THIRD PAGE -->
+    <section id="why" class="bg-section section-3">
+
+        <div class="container h-100">
+
+            <div class="row align-items-center h-100">
+
+                <!-- LEFT -->
+                <div class="col-lg-8 left-content">
+                    <div class="scale-up-center">
+                        <img src="assets/gambar/text-section-3.png" class="img-fluid why-img image-advantage3 "
+                            alt="Why Should Us">
+                    </div>
+
+                    <div class="mt-4">
+
+                        <h4 class="text-white text-uppercase  show-card3">
+                            Ready to Push Your Rank?
+                        </h4>
+
+                        <a href="#shop" class="btn btn-joki3 show-card3">
+
+                            <i class="bi bi-controller me-2 "></i>
+
+                            JOKI
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- RIGHT -->
+
+                <div class="col-lg-4 image-advantage3">
+
+                    <div class="feature-card3 scale-up-center">
+                        <div class="feature-content text-uppercase">
+                            <h2>Fast<br>Process</h2>
+                        </div>
+                    </div>
+
+                    <div class="feature-card3 scale-up-center">
+                        <div class="feature-content text-uppercase">
+                            <h2> Account<br>Safe</h2>
+                        </div>
+                    </div>
+
+                    <div class="feature-card3 scale-up-center">
+                        <div class="feature-content text-uppercase">
+                            <h2>Professional<br>Team</h2>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- FOURTH PAGE -->
+    <section id="testi" class="bg-section section-paqui">
+
+        <div class="container">
+
+
+            <div class="row image-advantage4">
+                <div class="col text-center mb-5 ">
+
+                    <img src="assets/gambar/testi-text-img.png" class="testimonial-title img-fluid " alt="Testimoni">
+
+                </div>
+            </div>
+
+            <!-- Container -->
+            <div class="testimonial-wrapper">
+
+                <div class="row justify-content-center image-advantage4">
+
+                    <!-- Kiri -->
+                    <div class="col-lg-8">
+                        <div class="testimonial-scroll-box">
+                            <div class="row g-3 ">
+
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="testimonial-card">
+                                        <h4>Adika-san</h4>
+                                        <p>Joki disini emang paling nyaman</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="testimonial-card ">
+                                        <h4>Ananta</h4>
+                                        <p>fast Respon min woilah! kata ilham</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="testimonial-card">
+                                        <h4>Michael</h4>
+                                        <p>Keren Prosesnya Gak pake lama!!</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="testimonial-card">
+                                        <h4>Alvin</h4>
+                                        <p>Tinggal Duduk Manis Naik Deh Rank Gweh</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="testimonial-card">
+                                        <h4>Chakti</h4>
+                                        <p>Tempat Joki Terbaik Sihh!! kacauu    </p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="testimonial-card">
+                                        <h4>Kusuma</h4>
+                                        <p>Recommend Deh Nih Tempat Joki Best!! gokil</p>
+                                    </div>
+                                </div>
+
+                                <!-- Card 7 -->
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="testimonial-card">
+                                        <h4>Refand</h4>
+                                        <p>Terimakasih sangat membantu!!</p>
+                                    </div>
+                                </div>
+
+                                <!-- Card 8 -->
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="testimonial-card">
+                                        <h4>Sastra-kun</h4>
+                                        <p>Gak Pake Lama, The Best Joki Site</p>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="testimonial-card">
+                                        <h4>Bhima</h4>
+                                        <p>Tempat Joki Murah dan Aman!</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="mt-5 ps-2">
+
+                            <div class="comment-form-section mt-5 ps-2">
+                                 <h3 class="text-white mb-4 text-uppercase fw-light">Leave a Comment</h3>
+                                    <form action="#" method="POST">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control comment-input" id="name"
+                                                placeholder="Your Name" required autocomplete="off">
+                                        </div>
+                                        <div class="mb-3">
+                                            <textarea class="form-control comment-input" id="comment" rows="4"
+                                                placeholder="Write your comment here..." required></textarea>
+                                        </div>
+                                        <button type="submit"
+                                            class="btn btn-submit-comment text-uppercase">Submit</button>
+                                    </form>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SIXTH PAGE -->
+    <section id="crew" class="bg-section">
+        <div class="container">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/project-handling/bhima.png" class="d-block w-100" alt="bhi">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/project-handling/kevin.png" class="d-block w-100" alt="kev">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/project-handling/hagi.png" class="d-block w-100" alt="hag">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/project-handling/refand.png" class="d-block w-100" alt="ref">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SEVENTH PAGE -->
+    <section id="shop" class="bg-section section-7">
+        <div class="container">
+            <div class="row justify-content-center scale-up-center scale-size-last-page show-card7 image-advantage7">
+                <img src="assets/gambar/game-section.png" alt="game-section" class="img-fluid ">
+            </div>
+
+            <div class="row g-4 scale-game-section justify-content-center show-card7 image-advantage7">
+                <div class="col-md-3 col-6 moving-right">
+                    <div class="game-card scale-up-center">
+                        <a href="assets/backend/form_pemesanan.php?game=PUBG">
+                            <img src="assets/game-images/pubg.png" alt="PUBG Mobile" class="game-img">
+                        </a>
+                        <div class="game-overlay">
+                            <h5>Pubg Mobile</h5>
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <div class="game-card scale-up-center">
+                        <a href="assets/backend/form_pemesanan.php?game=Honor-Of-Kings">
+                            <img src="assets/game-images/hok.png" alt="Honor Of Kings" class="game-img">
+                        </a>
+                        <div class="game-overlay">
+                            <h5>Honor Of Kings</h5>
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <div class="game-card scale-up-center">
+                        <a href="assets/backend/form_pemesanan.php?game=Free-Fire">
+                            <img src="assets/game-images/ff.jpg" alt="Free Fire" class="game-img">
+                        </a>
+                        <div class="game-overlay">
+                            <h5>Free Fire</h5>
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6 ">
+                    <div class="game-card scale-up-center ">
+                        <a href="assets/backend/form_pemesanan.php?game=MobileLegends">
+                            <img src="assets/game-images/mlbb2.jpg" alt="Mobile Legends" class="game-img">
+                        </a>
+                        <div class="game-overlay">
+                            <h5>Mobile Legends</h5>
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--FAQ-->
+    <section id="faq" class="mt-5">
+        <div class="container-lg">
+            <div class="instrument-serifs text-center faq-colors text-uppercase mb-5">
+                <h2 class="">Whispers of Curiosity</h2>
+                <p class="lead white-style-text">Answers, Rendered as Elegantly as Our Craft</p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion accordion-faq" id="laundroFAQ">
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqOne" aria-expanded="true" aria-controls="faqOne">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                                </button>
+                            </h2>
+                            <div id="faqOne" class="accordion-collapse collapse show" data-bs-parent="#laundroFAQ">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                    Doloribus minus magnam distinctio laudantium voluptate nihil repellendus!
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqTwo" aria-expanded="false" aria-controls="faqTwo">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                                </button>
+                            </h2>
+                            <div id="faqTwo" class="accordion-collapse collapse" data-bs-parent="#laundroFAQ">
+                                <div class="accordion-body">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Pariatur voluptatibus quaerat aut voluptas id assumenda ullam!
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqThree" aria-expanded="false" aria-controls="faqThree">
+                                   Lorem ipsum dolor sit amet consectetur adipisicing.
+                                </button>
+                            </h2>
+                            <div id="faqThree" class="accordion-collapse collapse" data-bs-parent="#laundroFAQ">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                    Amet tempora deserunt ab laboriosam accusantium est.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqFour" aria-expanded="false" aria-controls="faqFour">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                </button>
+                            </h2>
+                            <div id="faqFour" class="accordion-collapse collapse" data-bs-parent="#laundroFAQ">
+                                <div class="accordion-body">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                    Consequuntur quas quidem architecto iure nobis ratione nesciunt.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqFive" aria-expanded="false" aria-controls="faqFive">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                                </button>
+                            </h2>
+                            <div id="faqFive" class="accordion-collapse collapse" data-bs-parent="#laundroFAQ">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                    Eum voluptatum maiores harum iure voluptatibus ratione. Adipisci?
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+
+</body>
+
+</html>
